@@ -58,7 +58,7 @@ function myHour(x,y,distance){
   
   push();
   var h = hour();
-  translate(distance*cos(h*6),distance*sin(h*6));
+  translate(distance*cos(h*30),distance*sin(h*30));
   
   noStroke();
   fill(255);
@@ -111,9 +111,6 @@ function correctime(){
    
   
   myMinute(x,y,150);
-  
-  
-  
   myHour(x,y,75);
 }
 
